@@ -42,6 +42,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Open Sans", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color-scheme: light only;
 }
 
 *,
@@ -12044,7 +12045,14 @@ pre .code {
     margin-top: 15px;
   }
 }
-
+#cardbox{
+  background-color : whitesmoke;
+  border-radius: 15px ;
+  padding: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  background-image: linear-gradient(to bottom, white, gray);
+}
 .header {
   position: relative;
   height: 100vh;
@@ -12073,8 +12081,8 @@ pre .code {
   left: 0;
   width: 0%;
   height: 100%;
-  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 0%, rgba(105, 90, 166, 0.5) 10%);
-  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 0%, rgba(105, 90, 166, 0.5) 10%);
+  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 75%, rgba(105, 90, 166, 0.5) 100%);
+  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 75%, rgba(105, 90, 166, 0.5) 100%);
 }
 
 .header .header-content {
