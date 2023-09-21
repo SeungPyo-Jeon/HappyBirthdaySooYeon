@@ -12112,7 +12112,7 @@ pre .code {
   
 }
 .header-subtitle {
-  font-size: calc(15px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(25px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
   letter-spacing: calc(0px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
   margin-top: -10px;
