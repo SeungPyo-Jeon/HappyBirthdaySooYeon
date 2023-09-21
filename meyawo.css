@@ -12103,7 +12103,7 @@ pre .code {
   display: block;
 }
 
-.header .header-content {
+.header .header-content .header-subtitle {
   font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
   letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
@@ -12112,7 +12112,7 @@ pre .code {
   
 }
 .header-subtitle {
-  font-size: calc(25px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(20px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
   letter-spacing: calc(0px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
   margin-top: -10px;
@@ -12127,7 +12127,7 @@ pre .code {
   
 }
 .btn{
-  margin-left: 50%;
+  margin-left: 40%;
 }
 .header-title {
   font-size: 2.4rem;
